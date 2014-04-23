@@ -1,0 +1,33 @@
+15
+16
+a 63.490
+b -1.093
+c 26.864
+d -93.085
+e 59.134
+f 29.608
+g -90.695
+h 62.484
+i -67.405
+j -41.879
++ co.edu.poli.ces2.expresiones.taller2.Suma 10
+- co.edu.poli.ces2.expresiones.taller2.Resta 10
+* co.edu.poli.ces2.expresiones.taller2.Multiplicacion 20
+/ co.edu.poli.ces2.expresiones.taller2.Division 20
+r900 co.edu.poli.ces2.expresiones.taller2.Nmc 9
+poli co.edu.poli.ces2.expresiones.taller2.SumaPoli 9
+45 poli 56.9 * h * 10
+12 poli 5
+5.6 poli -4
+7 poli 9
+50 poli 10
+r900 ( ( a + b + c + d + e + f + g + h + i + j ) / 10 )
+( a * b - c - d * e poli f - g * h + i + j ) / 10.5
+( 1 poli 2 + 3 poli 4 * 9 / 5 - 7 ) * a
+a + b
+c - d
+e * f
+( h - 3 ) / 88 + 3.8 poli 12
+r900 ( ( e + f ) * 1000 )
+12345 + 54321
+35.5 + 34.5 + 30

@@ -1,0 +1,24 @@
+INSERT INTO tbl_usuarios (nombre, apellido,telefono, nacimiento) VALUES (?,?,?,?)
+juan,López,null,1999-08-13
+SELECT id_usuario, nombre, apellido, telefono, nacimiento FROM  tbl_usuarios WHERE id_usuario = ? AND nombre = ? AND apellido = ? AND nacimiento = ?
+1,Juan,López,1999-08-13
+UPDATE tbl_usuarios SET nombre = ?, apellido = ?, telefono = ?, nacimiento = ? WHERE id_usuario = ?
+Juan,López,null,1999-08-13,1
+DELTE FROM tbl_usuarios WHERE id_usuario = 1
+1
+INSERT INTO tbl_facturas (id_cliente, Fecha, Observaciones ) VALUES (?,?,?)
+1,2013-10-12,null
+SELECT id_factura, id_cliente, fecha, observaciones FROM tbl_facturas WHERE Id_factura = ? and id_cliente = ? and Fecha = ?
+9,1,2013-10-12
+UPDATE tbl_facturas SET id_cliente = ?, Fecha = ?, Observaciones = ? WHERE Id_factura = ?
+1,2013-10-12,null,9
+DELETE FROM tbl_facturas WHERE Id_factura = ?
+9
+INSERT INTO tbl_facturas_detalles (Id_factura, Item, Id_producto, Cantidad, Costo_unitario, Observaciones ) VALUES (?,?,?,?,?,?) 
+1234,1,5632,2500.0,579.7,null
+SELECT id_factura, item, id_producto, cantidad, costo_unitario, observaciones FROM tbl_facturas_detalles WHERE Id_factura = ? and Item = ? and Id_producto = ? and Cantidad = ? and Costo_unitario = ?
+1234,1,5632,2500.0,579.7
+UPDATE tbl_facturas_detalles SET Id_producto = ?, Cantidad = ?, Costo_unitario = ?, Observaciones = ? WHERE Id_factura = ? and Item = ?
+5632,2500.0,579.7,null,1234,1
+DELETE FROM tbl_facturas_detalles WHERE Id_factura = ? and Item = ?
+1234,1

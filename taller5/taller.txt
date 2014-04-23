@@ -1,0 +1,7 @@
+Adjunto los fuentes de lo que miramos hoy en clase.
+
+Para el próximo viernes hay que realizar de forma similar al método eliminar de la clase tbl_usuarios (y teniendo en cuenta el taller#4):
+insertar
+actualizar
+consultar: investigan el uso del ResultSet y muestran los datos en la consola (ustedes eligen el formato) 
+Para entregar antes del viernes 11 a las 17:00.

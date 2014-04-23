@@ -1,0 +1,8 @@
+adjuntos van los archivos necesarios para dar solución en clase al taller 
+del viernes:
+
+
+Operador.pdf: Javadoc de la interface operador.
+expresiones.in: Archivo de entrada.
+expresiones.out: Archivo de salida
+CES2_Exp.jar: Librería con la interface Operador
