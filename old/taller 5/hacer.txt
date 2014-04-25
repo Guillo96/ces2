@@ -1,0 +1,16 @@
+Terminar insert/Update/delete de las 5 tablas en el script ces2.sql
+
+Modificar el método insertar para que luego de que guardar los datos en la base de datos
+si hay columnas auto-incrementales, obtener el valor que asigna la base de datos para ese registro y 
+asignárselo al atributo respectivo del objeto. (recuerden que pueden existir varias columnas 
+auto-incrementales en una misma tabla)
+
+Crear un metodo que reciba el nombre de la db, el esquema y el paquete (al cual 
+pertenecerán las clases) y genere los archivos *.java con los beans respectivos (similar al taller #4) 
+
+
+Las clases sólo deben tener, los atributos correspondientes a las columnas de la tabla, el constructor,
+ las propiedades correspondientes a los atributos (getters y setters) y los métodos 
+insert/update/delete funcionando.
+
+El punto 3 es bueno que lo desarrollen un una clase independiente.

@@ -1,0 +1,16 @@
+co.edu.poli.ces2.taller4
+tbl_usuarios
+id_usuario nombre apellido clave correo mod_usuario mod_fecha
+1 id_usuario
+0
+String,String,String,String,String,String,java.sql.Timestamp
+tbl_factura
+id_factura id_cliente Fecha Observaciones
+1 Id_factura
+1 Id_factura
+Integer,Integer,java.sql.Timestamp,String
+tbl_factura_detalle
+id_factura item id_producto cantidad costo_unitario observaciones
+2 id_factura item
+0
+Integer,Integer,Integer,Double,Double,String
