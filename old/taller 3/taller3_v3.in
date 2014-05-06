@@ -1,0 +1,15 @@
+tbl_usuarios
+id_usuario nombre apellido telefono nacimiento
+1 id_usuario
+1 id_usuario
+11,Juan,López,null,1999-08-13
+tbl_facturas
+id_factura id_cliente Fecha Observaciones
+1 Id_factura
+1 Id_factura
+9,1,2013-10-12,null
+tbl_facturas_detalles
+id_factura item id_producto cantidad costo_unitario observaciones
+2 id_factura item
+0
+1234,1,5632,2500.0,579.7,null
